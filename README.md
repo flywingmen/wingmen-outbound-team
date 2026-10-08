@@ -1,20 +1,22 @@
 <p align="center"><img src="assets/banner.png" alt="Outbound Team: your outbound team, inside Claude" width="100%"></p>
 
 <p align="center">
-  <a href="LICENSE"><img src="https://img.shields.io/badge/license-MIT-151513" alt="MIT license"></a>
+  <a href="https://app.flywingmen.com/signup?utm_source=github&utm_medium=readme&utm_campaign=outbound_team&utm_content=hero_button"><img src="https://img.shields.io/badge/Start%20free%20trial%20%E2%86%92-1970C8?style=for-the-badge" alt="Start your free Wingmen trial" height="40"></a>
+</p>
+
+# Book calls from inside Claude
+
+**Eleven agents run your outbound for you.** They find people showing real buying intent, tell you in one sentence why each lead is worth it, write every message from what that person actually said, and work your replies until they turn into calls.
+
+Nothing leaves your account until you say yes.
+
+Built for founders who still close their own deals and have no time left to prospect. Runs on [Wingmen](https://www.flywingmen.com/?utm_source=github&utm_medium=readme&utm_campaign=outbound_team&utm_content=intro_link), the engine that finds, scores and sends.
+
+<p align="center">
   <img src="https://img.shields.io/badge/Claude%20Code-plugin-D97757" alt="Claude Code plugin">
-  <img src="https://img.shields.io/badge/MCP-Wingmen-1970C8" alt="Wingmen MCP">
   <img src="https://img.shields.io/badge/agents-11-3DDC84" alt="11 agents">
   <img src="https://img.shields.io/badge/sends%20without%20you-never-E0282E" alt="Never sends without you">
 </p>
-
-# Outbound Team for Claude
-
-**Eleven agents that run your outbound from inside Claude.** They find people showing real buying intent, write a reason next to every lead, draft every message from a signal instead of a template, and work your replies until they become calls.
-
-They never send anything you did not see first.
-
-Built for founders who are still their own best salesperson and have no time left to prospect.
 
 ## Why this one
 
@@ -26,6 +28,9 @@ Built for founders who are still their own best salesperson and have no time lef
 
 ## Quickstart
 
+1. **[Start your free Wingmen trial](https://app.flywingmen.com/signup?utm_source=github&utm_medium=readme&utm_campaign=outbound_team&utm_content=quickstart)** and connect your LinkedIn account in the app.
+2. Then, in Claude Code:
+
 ```
 /plugin marketplace add flywingmen/wingmen-outbound-team
 /plugin install outbound-team@wingmen
@@ -33,7 +38,7 @@ Built for founders who are still their own best salesperson and have no time lef
 /outbound-team:outbound-setup yourcompany.com
 ```
 
-You need a [Wingmen](https://www.flywingmen.com) account (free trial) with your LinkedIn account connected in the app. Details below.
+Your first leads show up within the day, each with a written reason.
 
 ## What a session looks like
 
@@ -98,7 +103,7 @@ Or just talk to it: *"what should I do today"*, *"who replied"*, *"build a list 
 
 **1. Before you start**
 
-- A **Wingmen account**: sign up at [flywingmen.com](https://www.flywingmen.com) (free trial).
+- A **Wingmen account**: [start the free trial](https://app.flywingmen.com/signup?utm_source=github&utm_medium=readme&utm_campaign=outbound_team&utm_content=setup).
 - Your **LinkedIn account connected inside the Wingmen app** (Accounts page). The agents work through connected accounts. They cannot connect LinkedIn for you, and nothing runs until one is connected.
 
 **2. Install**
@@ -137,7 +142,7 @@ No. Every action that sends, launches, approves or saves targeting is two steps:
 It is built not to. It runs on LinkedIn's real limits, warms up new accounts, prefers people you already know, and pauses first when something looks wrong. No tool can promise zero risk. This one refuses to trade your account for volume.
 
 **Do I need Wingmen?**
-To act, yes: finding and scoring people daily, sending, the inbox and the copy checks all run in Wingmen. Without it the agents still research and draft, and the playbook in `skills/outbound-team/` is yours to use with any tool.
+Yes. Wingmen is the engine: Lead Radar finds and scores new people every day, the sending engine runs inside LinkedIn's safe limits, and the inbox and copy checks keep every message clean. The agents are how you drive it from Claude. [Start the free trial](https://app.flywingmen.com/signup?utm_source=github&utm_medium=readme&utm_campaign=outbound_team&utm_content=faq).
 
 **Why so strict about signals?**
 Because a personalised message built on an invented signal is worse than no message. "NONE" is an allowed answer, and a thin true reason beats a confident wrong one.
@@ -145,11 +150,13 @@ Because a personalised message built on an invented signal is worse than no mess
 **Can I change the agents?**
 Yes. They are plain markdown files. Fork it, rewrite the rules for your market, keep the approval step.
 
-## What is open and what is not
+## Get started
 
-Everything in this repo is free and MIT licensed: the agents, the playbook, the scoring rubric, the copy rules, the commands. Read it, fork it, use the playbook without us.
+The agents and the playbook here are free and open. The work runs on **Wingmen**: Lead Radar, the LinkedIn sending engine with its safety limits, the inbox and the copy checks.
 
-The agents act through the **Wingmen MCP**, which is a paid product: Lead Radar, the LinkedIn sending engine with its safety limits, the inbox and the copy checks. There is a free trial at [flywingmen.com](https://www.flywingmen.com).
+<p align="center">
+  <a href="https://app.flywingmen.com/signup?utm_source=github&utm_medium=readme&utm_campaign=outbound_team&utm_content=footer_button"><img src="https://img.shields.io/badge/Start%20free%20trial%20%E2%86%92-1970C8?style=for-the-badge" alt="Start your free Wingmen trial" height="40"></a>
+</p>
 
 ## Contributing
 
@@ -159,4 +166,4 @@ If it books you a call, a star helps other founders find it.
 
 ---
 
-MIT © Nemanja Milic · built with [Wingmen](https://www.flywingmen.com)
+MIT © Nemanja Milic · [Wingmen](https://www.flywingmen.com/?utm_source=github&utm_medium=readme&utm_campaign=outbound_team&utm_content=footer_link)

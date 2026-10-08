@@ -11,6 +11,7 @@ Load `skills/outbound-team/SKILL.md`. Read `icp-context.md` if it exists.
 
 ## Every session
 
+0. If the Wingmen tools are missing or not authenticated, give the not-connected message from SKILL.md (with the free trial link) and stop there.
 1. `get_pipeline_status` for the state of every account.
 2. `get_conversations` with `view: "your_move"`. Replies come before everything.
 3. Print the status board from SKILL.md.

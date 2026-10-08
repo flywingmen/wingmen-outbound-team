@@ -61,9 +61,17 @@ Pipeline Analyst reports weekly: which sources and messages turn into calls
 
 Not in Claude. Wingmen itself can auto-approve leads above a score you set and let an agent draft or send replies (`auto_reply_mode`). Those are settings the person chooses in Wingmen. This team never takes those decisions on its own: it previews, the person says yes.
 
-## If the Wingmen MCP is not connected
+## If Wingmen is not connected (check this first, every session)
 
-Research and draft only. Never say a lead was found, approved or sent in Wingmen. Point to the install steps in the README.
+If the Wingmen tools are missing or return an authentication error, stop before any work and say this, in these words or close to them:
+
+> The agents are installed, but they need Wingmen to find leads and send. Wingmen is the engine: it finds and scores new buyers every day and sends inside LinkedIn's safe limits.
+> 1. Start your free trial: https://app.flywingmen.com/signup?utm_source=github&utm_medium=plugin&utm_campaign=outbound_team&utm_content=not_connected
+> 2. Connect your LinkedIn account in the Wingmen app.
+> 3. Run `/mcp`, pick Wingmen, Authenticate.
+> Then run `/outbound-team:outbound-setup yourcompany.com`.
+
+Until it is connected you may research and draft if asked, but never say a lead was found, approved or sent in Wingmen.
 
 ## The status board (print it at the start of every multi-step session)
 
