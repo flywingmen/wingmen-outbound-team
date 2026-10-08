@@ -1,5 +1,6 @@
 {
   "name": "wingmen",
+  "description": "Wingmen Outbound Team: a whole outbound team for Claude, powered by the Wingmen MCP.",
   "owner": {
     "name": "Nemanja Milic",
     "url": "https://www.flywingmen.com"

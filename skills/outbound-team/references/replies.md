@@ -8,6 +8,13 @@ A reply is the only part of outbound that turns into revenue. Work it before you
 2. `get_conversations` with `held: true`: drafts an agent wrote that Wingmen held for review, each with the reason. Fix or approve.
 3. `get_conversations` with `view: "later"`: people who asked to be contacted on a date. Anyone whose date has come moves to today.
 
+## Triage before you draft
+
+"Your move" holds every thread waiting on the account, not only prospects. Sort first:
+- **Prospects:** work them, hottest and longest-waiting first. A yes left for two weeks is the most expensive line in the pipeline.
+- **Personal threads** (friends, family, people writing in another language about non-work things): list them separately and leave them to the person. Never draft into them.
+- **Vendor marketing and newsletters** sent as DMs: flag as noise, no reply.
+
 ## Answering one thread
 
 1. Read the whole thread first with `get_conversation`. Never answer from the inbox preview.

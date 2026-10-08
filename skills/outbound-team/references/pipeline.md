@@ -9,6 +9,10 @@ Ten minutes, once a week. The goal is one decision, not a dashboard.
 3. `get_activity` with `days: 7`: the counts, and Lead Radar's own notes on what it learned and changed.
 4. `check_usage`: credits and the monthly lead allowance, so nothing runs dry mid-week.
 
+## Count calls honestly
+
+Wingmen's "meetings booked" counts bookings it saw. Calls arranged inside a thread (a time agreed, a Zoom invite pasted) can be missing from it. Scan the last week's replies in `get_activity` for scheduling words and count those calls too, named, so the number is right.
+
 ## Answer four questions
 
 1. **Which source turns into accepted invites?** Rank sources by accepted, not by found. A source that finds 200 and gets 3 accepted is costing you.
