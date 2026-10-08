@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "wingmen": {
+      "type": "http",
+      "url": "https://app.flywingmen.com/api/mcp"
+    }
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "name": "wingmen",
+  "owner": {
+    "name": "Nemanja Milic",
+    "url": "https://www.flywingmen.com"
+  },
+  "plugins": [
+    {
+      "name": "outbound-team",
+      "source": "./",
+      "description": "Eight outbound agents for Claude, powered by the Wingmen MCP. Find, score, write, launch, reply, report. Human approval on every send."
+    }
+  ]
+}
