@@ -1,0 +1,21 @@
+{
+  "name": "wingmen",
+  "description": "Wingmen Outbound Team: a whole outbound team as one plugin, powered by the Wingmen MCP.",
+  "owner": {
+    "name": "Nemanja Milic",
+    "url": "https://www.flywingmen.com"
+  },
+  "plugins": [
+    {
+      "name": "outbound-team",
+      "source": "./",
+      "description": "Eleven outbound agents. Find, judge, research, write, launch, reply, follow up, qualify, report. Human approval on every send.",
+      "version": "0.2.0",
+      "author": { "name": "Nemanja Milic" },
+      "homepage": "https://www.flywingmen.com",
+      "license": "MIT",
+      "keywords": ["outbound", "sales", "linkedin", "lead-generation", "mcp", "agents", "wingmen", "grok"],
+      "category": "productivity"
+    }
+  ]
+}

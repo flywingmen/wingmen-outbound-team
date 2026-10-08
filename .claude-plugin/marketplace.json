@@ -8,7 +8,7 @@
     {
       "name": "outbound-team",
       "source": "./",
-      "description": "Eight outbound agents for Claude, powered by the Wingmen MCP. Find, score, write, launch, reply, report. Human approval on every send."
+      "description": "Eleven outbound agents for Claude, powered by the Wingmen MCP. Find, judge, research, write, launch, reply, follow up, qualify, report. Human approval on every send."
     }
   ]
 }

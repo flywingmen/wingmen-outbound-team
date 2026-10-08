@@ -11,7 +11,7 @@ The signal is the personalisation. You do not need more templates. You need to s
 - Never claim a result the user has not given you.
 - Write three versions that differ only in the opening line. Same substance.
 
-Good: "Saw you're hiring an SDR. Usually means founder-led outbound is starting to hurt. I'm Nemanja, I run Wingmen, it finds people showing that kind of signal and drafts outreach for you. How are you handling it today?"
+Good: "Saw you're hiring a second designer. Usually means the backlog outgrew the team. I'm [name] at [company], we take overflow projects for studios your size. How are you handling the gap until they start?"
 
 Bad: "I hope this finds you well, I wanted to reach out because..."
 
@@ -27,9 +27,22 @@ Cut:
 
 Keep every factual claim exactly as written. Read it aloud in your head. If a line sounds like a brochure, cut it.
 
+## Instant fails (rewrite if a message trips two)
+
+- Any opener about hoping they are well, or about "reaching out"
+- A compliment with nothing behind it ("love what you're building")
+- Personalisation you cannot prove ("saw your recent post" when you did not)
+- Reciting their job title or About section back to them
+- More than one question in a message
+- Your product name in a connection request
+- "Hop on a call" with no reason they would want to
+- A wall of text, emoji runs, forced casual ("hey hey!")
+
+The test: would you send this, from your own account, to a peer you respect? If not, it fails.
+
 ## Follow-ups
 
-- **Follow-up 2, about 4 days later.** Re-introduce yourself in line one ("Nemanja again, from Wingmen"). Assume message one was never read. Add one new piece of value. Never "just following up", "bumping this", "in case you missed it". Under 60 words.
+- **Follow-up 2, about 4 days later.** Re-introduce yourself in line one ("[name] again, from [company]"). Assume message one was never read. Add one new piece of value. Never "just following up", "bumping this", "in case you missed it". Under 60 words.
 - **Follow-up 3, about 9 days later.** The close-out. Timing may be wrong, the door stays open, no guilt, no fake scarcity. Under 40 words.
 
 In a Wingmen manual campaign, a follow-up is the `follow_up_message` on `add_manual_touch` with `follow_up_after_days`. It only goes if they have not replied, and any reply stops everything queued for that person.

@@ -1,6 +1,6 @@
 # Outbound Team for Claude
 
-**Your outbound team, inside Claude.** Eight agents that find buyers showing real intent, score every lead with a written reason, write from the signal, and run LinkedIn outreach for you. Nothing sends until you say yes.
+**Your outbound team, inside Claude.** Eleven agents that find buyers showing real intent, score every lead with a written reason, write from the signal, and run LinkedIn outreach for you. Nothing sends until you say yes.
 
 Built for founders who are still their own best salesperson and have no time left to prospect.
 
@@ -12,9 +12,12 @@ Built for founders who are still their own best salesperson and have no time lef
 | **Targeting Strategist** | Turns your website into who to hunt, and fixes it when the leads look wrong |
 | **Signal Hunter** | Builds warm lists from the people commenting on a post, or from your own network |
 | **Lead Judge** | Approves the real leads with a reason a stranger could check, dismisses the rest |
+| **Account Researcher** | Finds one honest angle per person: why them, why now. Says "no fresh trigger" instead of inventing one |
 | **Copywriter** | Writes from the signal, under 80 words, and strips the AI tells |
 | **Campaign Operator** | Creates agents, switches them on after your yes, runs hand-written campaigns, pauses anything at once |
 | **Inbox Closer** | Works everyone waiting on you, drafts every reply, sends only what you approve |
+| **Follow-up Agent** | Keeps warm threads alive: one nudge with something new, one close-out, then stops |
+| **Meeting Qualifier** | Protects your calendar: book, ask one question, or pass |
 | **Pipeline Analyst** | A five-line weekly review: what booked calls, where it leaks, the one change to make |
 
 ## How the work flows
@@ -28,6 +31,7 @@ Approved list
    ↓  Campaign Operator creates a paused agent, you say yes, it goes live
 Replies
    ↓  Inbox Closer drafts the answer, you approve, it sends
+   ↓  Interested → Meeting Qualifier. Warm but quiet → Follow-up Agent
 Every Friday
    ↓  Pipeline Analyst tells you which source turns into calls
 ```
@@ -63,6 +67,10 @@ The plugin connects the Wingmen MCP for you. Sign in with your Wingmen account w
 **Claude desktop or claude.ai**
 
 Settings → Connectors → Add custom connector → `https://app.flywingmen.com/api/mcp`. Then add the files in `skills/outbound-team/` as a skill, or paste `SKILL.md` into a project.
+
+**Codex, Cursor, Grok and other agent hosts**
+
+Clone the repo into your project. `AGENTS.md` is the entry point: it routes every request to the right agent. Connect the Wingmen MCP from `.mcp.json` in your host's MCP settings. Grok users can install it as a plugin from `.grok-plugin/`.
 
 **Then**
 

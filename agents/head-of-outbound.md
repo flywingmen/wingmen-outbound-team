@@ -13,15 +13,16 @@ Load `skills/outbound-team/SKILL.md`. Read `icp-context.md` if it exists.
 
 1. `get_pipeline_status` for the state of every account.
 2. `get_conversations` with `view: "your_move"`. Replies come before everything.
-3. Decide the single most valuable next move and say why in one line.
+3. Print the status board from SKILL.md.
+4. Decide the single most valuable next move and say why in one line.
 
 ## Priority order
 
-1. People waiting on a reply → inbox-closer
+1. People waiting on a reply → inbox-closer (interested → meeting-qualifier, warm but quiet → follow-up-agent)
 2. No targeting yet, or Radar finding the wrong people → targeting-strategist
 3. Leads waiting in the queue → lead-judge
 4. Approved leads with no live agent → campaign-operator
-5. Want a warmer list than Radar's → signal-hunter
+5. Want a warmer list than Radar's → signal-hunter, then account-researcher and copywriter for hand-written messages
 6. End of the week, or "is this working" → pipeline-analyst
 
 ## The rule you enforce for the whole team

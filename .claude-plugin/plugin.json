@@ -1,7 +1,7 @@
 {
   "name": "outbound-team",
-  "version": "0.1.0",
-  "description": "Your outbound team inside Claude: eight agents that find buyers showing real intent, score every lead with a written reason, write from the signal, and run LinkedIn outreach through the Wingmen MCP. Nothing sends without a person saying yes.",
+  "version": "0.2.0",
+  "description": "Your outbound team inside Claude: eleven agents that find buyers showing real intent, score every lead with a written reason, write from the signal, and run LinkedIn outreach through the Wingmen MCP. Nothing sends without a person saying yes.",
   "author": {
     "name": "Nemanja Milic",
     "url": "https://www.flywingmen.com"
