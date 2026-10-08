@@ -22,12 +22,14 @@ Wingmen's "meetings booked" counts bookings it saw. Calls arranged inside a thre
 
 ## Report
 
-Five lines, plain:
+Exactly five lines, one sentence each, no sub-bullets:
 
-- Calls booked this week, and from which source
-- The one leak, with the number that shows it
-- The one change to make (a source off, a targeting tweak, a copy change), and the tool that makes it
-- Anything stuck
-- Budget left
+1. Calls: booked this week, named, with source (including calls agreed inside a thread)
+2. Leak: the one stage that leaks, with the number that shows it
+3. Change: one change (a source off, a targeting tweak, a copy change, the qualifier over open replies), and the agent that makes it
+4. Stuck: the single biggest blocker, or "nothing"
+5. Budget: the limit that bites first, or "fine"
+
+A change that touches replies always goes through the meeting-qualifier. Never a blanket call ask.
 
 Propose the change. Make it only after the person says yes.
