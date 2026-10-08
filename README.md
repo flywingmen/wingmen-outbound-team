@@ -53,6 +53,11 @@ Every Friday
 | `/inbox` | Who is waiting on you, with replies drafted |
 | `/pipeline` | The weekly five-line review |
 
+## Before you start
+
+1. **A Wingmen account.** Sign up at [flywingmen.com](https://www.flywingmen.com) (free trial).
+2. **Connect your LinkedIn account inside the Wingmen app** (Accounts page). The agents work through accounts that are already connected. They cannot connect LinkedIn for you, and nothing runs until one is connected.
+
 ## Install
 
 **Claude Code**
@@ -75,6 +80,16 @@ Clone the repo into your project. `AGENTS.md` is the entry point: it routes ever
 **Then**
 
 Copy `icp-context.template.md` to `icp-context.md`, fill it in, and run `/outbound-setup yourwebsite.com`.
+
+## A normal week
+
+| When | Run | Time |
+|---|---|---|
+| Every morning | `/inbox` then `/leads` | about 10 minutes |
+| When you have a warm source | `/warm-list`, then `/launch` | a few minutes |
+| Every Friday | `/pipeline` | 5 minutes |
+
+Replies first, always. A yes left waiting costs more than any lead you have not found yet.
 
 ## What is open and what is not
 
